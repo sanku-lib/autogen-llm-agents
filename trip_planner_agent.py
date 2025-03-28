@@ -258,7 +258,7 @@ with Cache.disk(cache_seed=43) as cache:
         question=question,
         cache=cache,
         summary_method="reflection_with_llm",
-        max_turns=10
+        max_turns=4
     )
 
 print(f"Summary of the Trip Planning")
